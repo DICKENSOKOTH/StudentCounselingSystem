@@ -1,0 +1,40 @@
+# ---- Build output (NetBeans / Ant) ----
+/build/
+/dist/
+/nbproject/private/
+/nbproject/build-impl.xml
+/nbproject/genfiles.properties
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# ---- Compiled files ----
+*.class
+
+# ---- Packaged files ----
+*.jar
+*.war
+*.ear
+!/lib/*.jar
+
+# ---- Logs ----
+*.log
+hs_err_pid*
+
+# ---- Other IDEs ----
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Local secrets (keep database passwords out of git) ----
+*.env
+config.properties
+db.properties
